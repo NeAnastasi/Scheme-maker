@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    width: 100%;
+}
+
+.page-body {
+    background-color: #e7e7e7;
+    height: calc(100vh - 70px);
+    flex: 1;
+    min-width: 0;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

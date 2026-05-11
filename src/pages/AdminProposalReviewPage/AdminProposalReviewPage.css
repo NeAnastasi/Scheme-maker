@@ -1,0 +1,132 @@
+.proposal-review {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.proposal-review__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.proposal-review__title {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+.proposal-review__desc {
+  font-size: 13px;
+  color: #4b5563;
+  max-width: 600px;
+}
+
+.proposal-review__toggle {
+  display: flex;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.proposal-review__toggle button {
+  padding: 8px 16px;
+  border: none;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  color: #374151;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.proposal-review__toggle button + button {
+  border-left: 1px solid #d1d5db;
+}
+
+.proposal-review__toggle button:hover {
+  background: #f3f4f6;
+}
+
+.proposal-review__toggle button.active {
+  background: #405bb4;
+  color: white;
+}
+
+.proposal-review__canvas {
+  flex: 1;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.proposal-review__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.proposal-review__actions .btn {
+  min-width: 140px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.proposal-review__actions .btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.proposal-review__actions .btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.proposal-review__actions .btn-accept {
+  background-color: #405bb4;
+  color: white;
+}
+
+.proposal-review__actions .btn-reject {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.proposal-review__actions .btn-edit {
+  background-color: white;
+  color: #405bb4;
+  border: 1.5px solid #405bb4;
+}
+
+.proposal-review__actions .btn-edit:hover:not(:disabled) {
+  background-color: #f0f4ff;
+}
+
+.proposal-review__status {
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.proposal-review__status.status-accepted {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.proposal-review__status.status-rejected {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

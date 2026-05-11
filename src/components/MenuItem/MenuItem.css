@@ -1,0 +1,13 @@
+.custom-card {
+  cursor: pointer;
+  border: 1px solid #e1e5e9;
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.custom-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}

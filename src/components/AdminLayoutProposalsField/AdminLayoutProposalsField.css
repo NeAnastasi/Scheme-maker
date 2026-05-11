@@ -1,0 +1,49 @@
+.proposal-actions {
+  margin-top: auto;
+}
+
+.proposal-actions .btn,
+.proposal-status-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.proposal-actions .btn {
+  width: 100%;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.proposal-actions .btn:hover {
+  opacity: 0.9;
+}
+
+.proposal-actions .btn-primary {
+  background-color: #405bb4;
+  color: white;
+}
+
+.proposal-status-badge {
+  margin-top: auto;
+}
+
+.proposal-status-badge.status-accepted {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.proposal-status-badge.status-rejected {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

@@ -1,0 +1,23 @@
+.SVGCanvas {
+  background-color: white;
+  margin: 30px;
+  height: calc(100% - 60px);
+  width: calc(100% - 60px);
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #b0b3b8 #f0f0f0;
+}
+
+.SVGCanvas::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.SVGCanvas::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.SVGCanvas::-webkit-scrollbar-thumb {
+  background: #b0b3b8;
+  border-radius: 5px;
+}

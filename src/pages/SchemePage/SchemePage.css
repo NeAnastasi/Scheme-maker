@@ -1,0 +1,38 @@
+.scheme-room-info {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    font-size: 14px;
+    color: #333;
+    pointer-events: none;
+    max-width: calc(100% - 100px);
+    z-index: 5;
+}
+
+.scheme-room-info__name {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.scheme-room-info__floor {
+    color: #666;
+}
+
+.scheme-room-info__desc {
+    color: #555;
+    border-left: 1px solid #d0d0d0;
+    padding-left: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 400px;
+}

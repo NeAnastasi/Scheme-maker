@@ -1,0 +1,48 @@
+.admin-nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* на всю ширину родителя (flex-колонки) */
+  padding: 14px 20px;
+  color: black; /* черный текст */
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background-color 0.2s;
+
+  /* важно для flex-контейнера */
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.admin-nav-badge {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  background-color: #ff4747;
+  color: white;
+  border-radius: 11px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.admin-nav-link--active {
+  background-color: #e8e8e8;
+  font-weight: 500;
+  border-left: 4px solid black;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.side-menu > div:first-child {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

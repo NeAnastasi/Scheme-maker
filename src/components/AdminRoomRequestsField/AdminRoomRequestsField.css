@@ -1,0 +1,53 @@
+.request-comment-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.request-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.request-actions .btn,
+.request-done-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.request-actions .btn {
+  flex: 1;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.request-actions .btn:hover {
+  opacity: 0.9;
+}
+
+.request-actions .btn-primary {
+  background-color: #405bb4;
+  color: white;
+}
+
+.request-actions .btn-cancel {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.request-done-badge {
+  margin-top: auto;
+  background-color: #d1fae5;
+  color: #065f46;
+}

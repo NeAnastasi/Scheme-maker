@@ -1,0 +1,80 @@
+.small-menu {
+  position: fixed;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  min-width: 180px;
+}
+
+.small-menu-comment {
+  width: 250px;
+  padding: 16px;
+}
+
+.menu-header {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.menu-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  min-height: 60px;
+  box-sizing: border-box;
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.menu-button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.menu-button-back {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.menu-button-back:hover {
+  background: #e0e0e0;
+}
+
+.menu-button-submit {
+  background: #4CAF50;
+  color: white;
+}
+
+.menu-button-submit:hover {
+  background: #45a049;
+}
+
+.menu-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+  color: #333;
+}
+
+.menu-item:hover {
+  background-color: #f5f5f5;
+}

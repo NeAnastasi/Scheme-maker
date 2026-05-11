@@ -1,0 +1,11 @@
+.svg-element.selected {
+  filter: drop-shadow(0 0 5px #007bff);
+}
+
+.resize-handle {
+  cursor: nwse-resize;
+  stroke: white;
+  stroke-width: 1;
+  transition: all 0.1s ease;
+  pointer-events: all;
+}

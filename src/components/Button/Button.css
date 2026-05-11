@@ -1,0 +1,18 @@
+.btn {
+  border: none;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 32px;
+  margin-bottom: 10px;
+}
+
+.btn-basic {
+  color: white;
+  background-color: #364c96;
+}
+
+.btn-basic:hover {
+  background-color: #618fc0;;
+}
