@@ -42,8 +42,7 @@
 ## 🖼️ Скриншоты
 
 <img width="1427" height="694" alt="Рисунок6" src="https://github.com/user-attachments/assets/5b13fc1c-517a-4ae8-ae4f-e84f3bdae7a5" />
-<img width="1028" height="851" alt="Рисунок4" src="https://github.com/user-attachments/assets/62b![Uploading Рисунок6.png…]()
-a06e1-34c4-4353-8369-08160760b595" />
+<img width="1028" height="851" alt="Рисунок4" src="https://github.com/user-attachments/assets/62ba06e1-34c4-4353-8369-08160760b595" />
 <img width="780" height="271" alt="Рисунок5" src="https://github.com/user-attachments/assets/f1215256-4ea0-4097-bccb-5f1976a7d725" />
 
 
