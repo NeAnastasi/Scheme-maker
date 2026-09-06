@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Схематизатор помещений с системой подачи заявок о поломках
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Прототип веб-системы для управления заявками на ремонт оборудования с визуальной привязкой к схеме помещения.
 
-## Available Scripts
+## 🚀 Технологии
 
-In the project directory, you can run:
+- **React** - пользовательский интерфейс
+- **JavaScript** - логика приложения
+- **SVG** - отрисовка схем и объектов
+- **Supabase (PostgreSQL)** - хранение данных и авторизация
+- **REST API** - взаимодействие клиента и сервера
+- **HTML, CSS** - верстка и стилизация
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📋 Функциональность
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Интерактивный схематизатор
+- Отображение интерактивного плана помещения
+- Добавление объектов (компьютеры, столы, колонки и др.) из меню иконок
+- Перемещение и удаление объектов на схеме
+- Отметка любого объекта как сломанного
+- Открытие формы создания заявки по выбранному объекту
 
-### `npm test`
+### Планы помещений
+- Интерфейс для создания SVG-плана кабинета
+- Привязка плана к конкретному кабинету (например, «Аудитория 301»)
+- Редактирование списка планов администратором
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Заявки
+- Форма создания заявки с полем описания проблемы
+- Автоматическое присвоение уникального номера каждой заявке
+- Отдельная страница администратора со списком всех заявок
 
-### `npm run build`
+### Работа с данными
+- Сохранение состояния системы между сессиями через Supabase
+- Взаимодействие с серверным API (чтение, создание, обновление)
+- Структурированные ответы сервера
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Скриншоты
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1427" height="694" alt="Рисунок6" src="https://github.com/user-attachments/assets/5b13fc1c-517a-4ae8-ae4f-e84f3bdae7a5" />
+<img width="1028" height="851" alt="Рисунок4" src="https://github.com/user-attachments/assets/62b![Uploading Рисунок6.png…]()
+a06e1-34c4-4353-8369-08160760b595" />
+<img width="780" height="271" alt="Рисунок5" src="https://github.com/user-attachments/assets/f1215256-4ea0-4097-bccb-5f1976a7d725" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Запуск проекта
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/NeAnastasi/Scheme-maker.git
+npm install
+npm start
